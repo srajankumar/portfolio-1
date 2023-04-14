@@ -39,9 +39,16 @@ function Home() {
             <br />
             <br />
             <img className="nameChild" src={aa} alt="h" />
+
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
           </div>
           <div className="languages">
-            <h2>Languages and Tools used</h2>
+            <h2>Languages, Frameworks and Tools I use</h2>
             <div className="icons">
               <i class="devicon-html5-plain"></i>
               <i class="devicon-css3-plain"></i>
@@ -68,8 +75,8 @@ function Home() {
               weeb and also ocasionally draws ;
             </p>
             <p>
-              Currently im learning fullstack development and i look forward in
-              improving in this field ;
+              Currently im learning fullstack development and i aim to improve
+              myself in this field ;
             </p>
           </section>
           <section id="section2">
@@ -80,9 +87,7 @@ function Home() {
           <section id="section3">
             <br />
             <h2>Contacts</h2>
-            <p>
-              I would love to connect with more people and know more on thses{" "}
-            </p>
+            <p>I would love to connect with more people and learn stuff</p>
             <div>
               <a href="instagram.com/">
                 <img className="icon" src={instagram} alt="h" />

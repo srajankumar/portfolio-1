@@ -11,8 +11,10 @@ function Arts() {
           </Link>
         </h4>
       </header>
-      <h2>Section 1</h2>
-      <p>Content for section 1 goes here</p>
+      <div>
+        <h2>Section 1</h2>
+        <p>Content for section 1 goes here</p>
+      </div>
     </div>
   );
 }

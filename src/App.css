@@ -28,7 +28,7 @@ i {
 .icons {
   display: flex;
   flex-direction: row;
-  animation: slide 10s linear infinite;
+  animation: slide 20s linear infinite;
 }
 
 @keyframes slide {
@@ -71,6 +71,8 @@ i {
 #bodychild1 {
   display: flex;
   flex-direction: column;
+  border-right: 10%;
+  left: 0;
 }
 
 #bodychild2 {
@@ -101,7 +103,6 @@ header {
 body {
   width: auto;
   height: auto;
-  padding-left: 2vh;
 }
 
 .nameParent {
