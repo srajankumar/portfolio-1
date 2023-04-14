@@ -170,3 +170,41 @@ header {
   box-sizing: border-box;
   border-color: #a5a5a5;
 }
+
+@media (max-width: 1000px) {
+  header {
+    max-width: 420px;
+    position: fixed;
+
+    padding-right: 16px;
+    padding-left: 0px;
+  }
+
+  @keyframes slide {
+    0% {
+      transform: translate3d(-100%, 0, 0);
+    }
+    50% {
+      transform: translate3d(calc(100% - 100%), 0, 0);
+    }
+    100% {
+      transform: translate3d(100%, 0, 0);
+    }
+  }
+
+  .home {
+    padding-left: 14px;
+
+    padding-right: 0px;
+  }
+
+  .navlink {
+    padding-left: 0px;
+
+    padding-right: 16px;
+  }
+
+  * {
+    max-width: 280px;
+  }
+}

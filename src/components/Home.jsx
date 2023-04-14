@@ -8,9 +8,12 @@ function Home() {
     <div>
       <header>
         <h4 className="home">
-          <Link className="home" to="/">
+          <a href="#section0" className="home">
             Home
-          </Link>
+          </a>
+          {/* <Link className="home" to="/">
+            Home
+          </Link> */}
         </h4>
         <nav>
           <h4 className="navlink">
@@ -27,6 +30,7 @@ function Home() {
           </h4>
         </nav>
       </header>
+      <section id="section0"></section>
       <div id="bodyparent">
         <div id="bodychild1">
           <br />
