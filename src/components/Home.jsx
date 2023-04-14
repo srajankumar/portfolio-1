@@ -40,6 +40,22 @@ function Home() {
             <br />
             <img className="nameChild" src={aa} alt="h" />
           </div>
+          <div className="languages">
+            <h2>Languages and Tools used</h2>
+            <div className="icons">
+              <i class="devicon-html5-plain"></i>
+              <i class="devicon-css3-plain"></i>
+              <i class="devicon-javascript-plain"></i>
+              <i class="devicon-c-plain"></i>
+              <i class="devicon-cplusplus-plain"></i>
+              <i class="devicon-java-plain"></i>
+              <i class="devicon-python-plain"></i>
+              <i class="devicon-mongodb-plain-wordmark"></i>
+              <i class="devicon-express-original-wordmark"></i>
+              <i class="devicon-react-original"></i>
+              <i class="devicon-nodejs-plain-wordmark"></i>
+            </div>
+          </div>
           <br />
 
           <section id="section1">

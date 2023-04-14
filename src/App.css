@@ -15,6 +15,34 @@
   width: 10px;
 }
 
+.languages {
+  overflow: hidden;
+}
+i {
+  padding-left: 1vh;
+  padding-right: 1vh;
+
+  font-size: 5vh;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  animation: slide 10s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translate3d(-100%, 0, 0);
+  }
+  50% {
+    transform: translate3d(calc(100% - 100%), 0, 0);
+  }
+  100% {
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
 .sidebar2 {
   background-color: #ffffff;
   overflow-x: hidden;
