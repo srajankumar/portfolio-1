@@ -201,6 +201,10 @@ header {
     padding-left: 0px;
   }
 
+  #bodychild2 {
+    padding-right: 1.5vh;
+  }
+
   i {
     font-size: 5vh;
   }
