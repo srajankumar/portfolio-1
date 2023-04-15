@@ -11,7 +11,7 @@
 .sidebar {
   background-color: #000000;
   overflow-x: hidden;
-  padding-top: 50vh;
+  padding-top: 40vh;
   width: 10px;
 }
 
@@ -21,14 +21,13 @@
 i {
   padding-left: 1vh;
   padding-right: 1vh;
-
-  font-size: 5vh;
+  font-size: 7vh;
 }
 
 .icons {
   display: flex;
   flex-direction: row;
-  animation: slide 20s linear infinite;
+  animation: slide 30s linear infinite;
 }
 
 @keyframes slide {
@@ -57,6 +56,7 @@ i {
   width: 10px;
   animation: blinker2 0.6s cubic-bezier(1, 0, 0, 1) infinite alternate;
 }
+
 @keyframes blinker2 {
   to {
     opacity: 0;
@@ -73,6 +73,7 @@ i {
   flex-direction: column;
   border-right: 10%;
   left: 0;
+  padding-right: 5vh;
 }
 
 #bodychild2 {
@@ -111,9 +112,11 @@ body {
   flex-direction: column;
 }
 
-.icon {
-  width: 25px;
-  padding-top: 2vh;
+#icon {
+  font-size: 26px;
+
+  width: 26px;
+  color: #000;
 }
 
 li {
@@ -171,13 +174,39 @@ header {
   border-color: #a5a5a5;
 }
 
-@media (max-width: 1000px) {
+/* Arts */
+
+#arts {
+  background: #000;
+  color: white;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  left: 0;
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
+}
+
+.artstitle {
+  font-family: cursive;
+  font-style: italic;
+}
+
+@media (max-width: 800px) {
   header {
     max-width: 420px;
     position: fixed;
 
     padding-right: 16px;
     padding-left: 0px;
+  }
+
+  i {
+    font-size: 5vh;
+  }
+
+  .icons {
+    animation: slide 10s linear infinite;
   }
 
   @keyframes slide {

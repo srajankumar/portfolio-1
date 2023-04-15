@@ -11,9 +11,9 @@ function Arts() {
           </Link>
         </h4>
       </header>
-      <div>
-        <h2>Section 1</h2>
-        <p>Content for section 1 goes here</p>
+      <div id="arts">
+        <h2 className="artstitle">ReoArts</h2>
+        <p>pending..</p>
       </div>
     </div>
   );
