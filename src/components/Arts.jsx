@@ -1,20 +1,73 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import img1 from "../arts/1.jpg";
+import img2 from "../arts/2.jpg";
+import img3 from "../arts/3.jpg";
+import img4 from "../arts/4.jpg";
+import img5 from "../arts/5.jpg";
+import img6 from "../arts/6.jpg";
+import img7 from "../arts/7.jpeg";
+import img8 from "../arts/8.jpg";
+import img9 from "../arts/9.jpg";
+import img10 from "../arts/10.jpg";
 
 function Arts() {
   return (
-    <div>
+    <div id="arts">
       <header>
         <h4 className="home">
           <Link className="home" to="/">
             back
           </Link>
+          {/* <h2 className="artstitle">ReoArts</h2> */}
         </h4>
       </header>
-      <div id="arts">
-        <h2 className="artstitle">ReoArts</h2>
-        <p>pending..</p>
+      <div id="artss">
+        <div>
+          <img id="imgarts" src={img1} />
+        </div>
+        <div>
+          <img id="imgarts" src={img2} />
+        </div>
+        <div>
+          <img id="imgarts" src={img3} />
+        </div>
+        <div>
+          <img id="imgarts" src={img4} />
+        </div>
+        <div>
+          <img id="imgarts" src={img5} />
+        </div>
+        <div>
+          <img id="imgarts" src={img6} />
+        </div>
+        <div>
+          <img id="imgarts" src={img7} />
+        </div>
+        <div>
+          <img id="imgarts" src={img8} />
+        </div>
+        <div>
+          <img id="imgarts" src={img9} />
+        </div>
+        <div>
+          <img id="imgarts" src={img10} />
+        </div>
       </div>
+      <footer>
+        <div class="btn">
+          <div>
+            <a class="insta" id="btn" href="https://www.instagram.com/reoarts/">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+          <div>
+            <a class="twitter" id="btn" href="https://twitter.com/reoarts">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
