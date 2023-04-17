@@ -19,40 +19,38 @@ function Arts() {
           <Link className="home" to="/">
             back
           </Link>
-          {/* <h2 className="artstitle">ReoArts</h2> */}
         </h4>
       </header>
-      <div id="artss">
-        <div>
-          <img id="imgarts" src={img1} />
-        </div>
-        <div>
-          <img id="imgarts" src={img2} />
-        </div>
-        <div>
-          <img id="imgarts" src={img3} />
-        </div>
-        <div>
-          <img id="imgarts" src={img4} />
-        </div>
-        <div>
-          <img id="imgarts" src={img5} />
-        </div>
-        <div>
-          <img id="imgarts" src={img6} />
-        </div>
-        <div>
-          <img id="imgarts" src={img7} />
-        </div>
-        <div>
-          <img id="imgarts" src={img8} />
-        </div>
-        <div>
-          <img id="imgarts" src={img9} />
-        </div>
-        <div>
-          <img id="imgarts" src={img10} />
-        </div>
+      <h2 id="artshead">Reo Arts</h2>
+      <div>
+        <img id="imgarts" src={img1} />
+      </div>
+      <div>
+        <img id="imgarts" src={img2} />
+      </div>
+      <div>
+        <img id="imgarts" src={img3} />
+      </div>
+      <div>
+        <img id="imgarts" src={img4} />
+      </div>
+      <div>
+        <img id="imgarts" src={img5} />
+      </div>
+      <div>
+        <img id="imgarts" src={img6} />
+      </div>
+      <div>
+        <img id="imgarts" src={img7} />
+      </div>
+      <div>
+        <img id="imgarts" src={img8} />
+      </div>
+      <div>
+        <img id="imgarts" src={img9} />
+      </div>
+      <div>
+        <img id="imgarts" src={img10} />
       </div>
       <footer>
         <div class="btn">
