@@ -40,16 +40,12 @@ function Home() {
           <br />
           <br />
           <br />
-          <br />
-          <br />
           <div className="nameParent">
-            <h1 className="nameChild">Yosh! Srajan here ;)</h1>
+            <h1 className="nameChild">Yo! Srajan here :)</h1>
+            <br />
             <br />
             <br />
             <img className="nameChild" src={aa} alt="h" />
-
-            <br />
-            <br />
             <br />
             <br />
             <br />
@@ -153,6 +149,7 @@ function Home() {
           </a>
         </div>
       </div>
+      <div id="bodychild3"></div>
     </div>
   );
 }

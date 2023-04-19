@@ -9,7 +9,9 @@ import img6 from "../arts/6.jpg";
 import img7 from "../arts/7.jpeg";
 import img8 from "../arts/8.jpg";
 import img9 from "../arts/9.jpg";
-import img10 from "../arts/10.jpg";
+import img10 from "../arts/10.jpeg";
+import img11 from "../arts/11.jpg";
+import img12 from "../arts/12.jpg";
 
 function Arts() {
   return (
@@ -22,36 +24,45 @@ function Arts() {
         </h4>
       </header>
       <h2 id="artshead">Reo Arts</h2>
-      <div>
-        <img id="imgarts" src={img1} />
+      <div className="artsparent">
+        <div>
+          <img id="imgarts" src={img1} />
+        </div>
+        <div>
+          <img id="imgarts" src={img2} />
+        </div>
+        <div>
+          <img id="imgarts" src={img3} />
+        </div>
+        <div>
+          <img id="imgarts" src={img4} />
+        </div>
+        <div>
+          <img id="imgarts" src={img5} />
+        </div>
+        <div>
+          <img id="imgarts" src={img6} />
+        </div>
+        <div>
+          <img id="imgarts" src={img7} />
+        </div>
+        <div>
+          <img id="imgarts" src={img8} />
+        </div>
+        <div>
+          <img id="imgarts" src={img9} />
+        </div>
+        <div>
+          <img id="imgarts" src={img10} />
+        </div>
+        <div>
+          <img id="imgarts" src={img11} />
+        </div>
+        <div>
+          <img id="imgarts" src={img12} />
+        </div>
       </div>
-      <div>
-        <img id="imgarts" src={img2} />
-      </div>
-      <div>
-        <img id="imgarts" src={img3} />
-      </div>
-      <div>
-        <img id="imgarts" src={img4} />
-      </div>
-      <div>
-        <img id="imgarts" src={img5} />
-      </div>
-      <div>
-        <img id="imgarts" src={img6} />
-      </div>
-      <div>
-        <img id="imgarts" src={img7} />
-      </div>
-      <div>
-        <img id="imgarts" src={img8} />
-      </div>
-      <div>
-        <img id="imgarts" src={img9} />
-      </div>
-      <div>
-        <img id="imgarts" src={img10} />
-      </div>
+
       <footer>
         <div class="btn">
           <div>
