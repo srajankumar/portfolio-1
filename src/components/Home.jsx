@@ -5,6 +5,8 @@ import github from "../icons/github.png";
 import mal from "../icons/mal.png";
 import snap from "../icons/snap.png";
 
+import MyCarousel from "../components/MyCarousel";
+
 import { Link } from "react-router-dom";
 
 function Home() {
@@ -53,7 +55,9 @@ function Home() {
           </div>
           <div className="languages">
             <h2>Languages, Frameworks and Tools I use</h2>
-            <div className="icons">
+
+            <MyCarousel />
+            {/* <div className="icons">
               <i class="devicon-html5-plain"></i>
               <i class="devicon-css3-plain"></i>
               <i class="devicon-javascript-plain"></i>
@@ -69,10 +73,8 @@ function Home() {
               <i class="devicon-express-original-wordmark"></i>
               <i class="devicon-react-original"></i>
               <i class="devicon-nodejs-plain-wordmark"></i>
-            </div>
+            </div> */}
           </div>
-          <br />
-
           <section id="section1">
             <br />
             <h2>About</h2>

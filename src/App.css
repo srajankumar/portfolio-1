@@ -82,8 +82,13 @@ nav {
   padding-right: 1rem;
 }
 
+.splide__slide {
+  display: flex;
+  padding: 0 4rem 0 1rem;
+}
+
 i {
-  font-size: 2rem;
+  font-size: 3rem;
   padding: 1rem;
 }
 
@@ -212,6 +217,11 @@ i {
 
   .icons {
     animation: slide 30s linear infinite;
+  }
+
+  .splide__slide {
+    display: flex;
+    padding: 0 2rem 0 2.4rem;
   }
 
   i {
