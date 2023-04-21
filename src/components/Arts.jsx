@@ -62,21 +62,7 @@ function Arts() {
           <img id="imgarts" src={img12} />
         </div>
       </div>
-
-      <footer>
-        <div class="btn">
-          <div>
-            <a class="insta" id="btn" href="https://www.instagram.com/reoarts/">
-              <i class="fa-brands fa-instagram"></i>
-            </a>
-          </div>
-          <div>
-            <a class="twitter" id="btn" href="https://twitter.com/reoarts">
-              <i class="fa-brands fa-twitter"></i>
-            </a>
-          </div>
-        </div>
-      </footer>
+      <div id="bodychild3"></div>
     </div>
   );
 }
