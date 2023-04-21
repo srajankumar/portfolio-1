@@ -14,29 +14,26 @@ function Home() {
     <div>
       <header>
         <h4 className="home">
-          <a href="#section0" className="home">
+          <a href="#/" className="home">
             Home
           </a>
-          {/* <Link className="home" to="/">
-            Home
-          </Link> */}
         </h4>
         <nav>
           <h4 className="navlink">
-            <a href="#section1">About</a>
+            <a href="#about">About</a>
           </h4>
           <h4 className="navlink">
-            <a href="#section2">Projects</a>
+            <a href="#projects">Projects</a>
           </h4>
           <h4 className="navlink">
-            <a href="#section3">Contact</a>
+            <a href="#contact">Contact</a>
           </h4>
           <h4 className="navlink">
             <Link to="/arts">Arts</Link>
           </h4>
         </nav>
       </header>
-      <section id="section0"></section>
+      <section id="/"></section>
       <div id="bodyparent">
         <div id="bodychild1">
           <br />
@@ -55,7 +52,6 @@ function Home() {
           </div>
           <div className="languages">
             <h2>Languages, Frameworks and Tools I use</h2>
-
             <MyCarousel />
             {/* <div className="icons">
               <i class="devicon-html5-plain"></i>
@@ -75,8 +71,8 @@ function Home() {
               <i class="devicon-nodejs-plain-wordmark"></i>
             </div> */}
           </div>
-          <section id="section1">
-            <br />
+          <section id="about"></section>
+          <div>
             <h2>About</h2>
             <p>My name is Srajan Kumar ;</p>
             <p>
@@ -94,13 +90,13 @@ function Home() {
               ;
             </p>
             <p>Also likes to draw ;</p>
-          </section>
-          <section id="section2">
+          </div>
+          <section id="projects">
             <br />
             <h2>Projects</h2>
             <p>pending..</p>
           </section>
-          <section id="section3">
+          <section id="contact">
             <br />
             <h2>Contact</h2>
             <p>pending..</p>
