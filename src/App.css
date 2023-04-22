@@ -163,12 +163,35 @@ i {
 
 /* Arts */
 
+#iconn {
+  display: flex;
+  padding: 0px 0px 0px 1rem;
+  font-size: 23px;
+  color: #ffffff;
+}
+
+/* #iconn:hover {
+  color: #2d7dff;
+} */
+
+#iconn-insta {
+  display: flex;
+  padding: 0px 1rem 0px 1rem;
+  width: 30px;
+}
+
 #artshead {
   color: #ffffff;
   font-family: "Allison", cursive;
   font-weight: 500;
   margin: 2%;
   font-size: 5rem;
+  transition: transform 0.5s;
+  cursor: default;
+}
+
+#artshead:hover {
+  transform: scale(1.1);
 }
 
 #arts {
